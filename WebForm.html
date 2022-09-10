@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Java Full Stack WEB Forms</title>
+	</head>
+	<body>
+		<h1>Login/Signup</h1>
+		<form>
+			<label for="username"  >Login id:</label>
+			<input type="text" placeholder="Enter Login Id" id="username" required>
+			<br>
+			<br>
+			<label for="Password">Enter the Password</label>
+			<input type="password" placeholder="Enter Password" id="Password" required>
+			<br>
+			<p>Gender</p>
+			<input type="radio" name="gender" id="male" required>
+			<label for="male">Male</label>
+			<br>
+			<input type="radio" name="gender" id="female" required>
+			<label for="male">Female</label>
+			<br>
+			<label for="security">Security Question</label>
+			<br>
+			<select name="security" id="security">
+				<option value="q1">Which is your favourite place for travelling</option>
+				<option value="q2">What is your pet name</option>
+				<option value="q3">What is your nick name</option>
+			</select>
+			<br>
+			<br>
+			<label for="answer">Write your Answer here</label>
+			<input type="text"  id="answer" required>
+			<br>
+			<br>
+			<label for="bio">Your Bio</label>
+			<br>
+			<textarea name="bio" id="bio" cols="8" rows="3" placeholder="About you..."></textarea>
+			<br>
+			<input type="submit" value="Sign in"> 
+		</form>
+	</body>
+<!---Used for comment--->
+</html>
