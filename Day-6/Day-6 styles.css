@@ -1,0 +1,45 @@
+
+.container
+{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+.dice
+{
+    text-align: center;
+    display: inline-block;
+}
+body{
+    background: url(./Dice-bg.jpg) no-repeat center center/cover;
+}
+
+h1
+{
+    font-size: 4rem;
+     font-family: cursive;
+     color:aliceblue;
+}
+p
+{
+    font-size: 4rem;
+     font-family: cursive;
+     color: white;
+}
+img
+{
+    width: 50%;
+  
+}
+
+footer
+{
+    color:blue;
+    text-align: center;
+    font-family: cursive;
+    margin: 0%;
+}
+section
+{
+    text-align: center;
+}
