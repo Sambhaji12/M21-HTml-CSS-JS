@@ -1,0 +1,33 @@
+#my-form label{
+    display: block;
+}
+
+my-form input[type="text"]
+{
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: 1px solid royalblue;
+}
+h1{
+    color: blue;
+    background-color: rosybrown;
+}
+label{
+    color: #000;
+    margin:calc();
+}
+
+
+.btn {
+    display: block;
+    width: 100ex;
+    padding: 10px 15px;
+    border: 0;
+    background: black;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    margin: 5px 0;
+
+}
