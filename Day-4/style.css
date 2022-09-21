@@ -1,0 +1,28 @@
+header{
+    background-color: #f63232;
+    padding: 20px 0 ;
+    text-align: left;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 20;
+    z-index: 1;
+}
+
+p::first-letter {
+    color: #ff0020;
+     font-variant: small-caps;
+}
+
+p::first-line {
+    color :#f63232;
+    font-variant: small-caps;
+}
+
+img{
+    width: 500;
+    height: 500;
+}
+body{
+    background-color: yellowgreen;
+}
